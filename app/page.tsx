@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="grid items-center w-100% m-0 p-0 box-border">
+    <main className="grid w-100% m-0 p-0 box-border">
       <nav className="w-100% h-[90px] flex p-[10px] justify-between items-center px-[90px]">
         <Image
           src="https://global-uploads.webflow.com/628cd1f0013870d234838177/62961eb456ef602bf8751d0c_maa-full-logo.svg"
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className='bg-[#003634] w-100% grid items-center px-10 h-[1330px]'>
+      <section className='bg-[#003634] w-100% grid place-items-center px-10 h-[1330px]'>
         <section className='w-100% p-[105px] flex justify-around items-center px-[65px]'>
           <div className='w-[700px]'>
             <h1 className='text-[2.8125em] font-[600] font-nunito text-white'>
@@ -137,10 +137,14 @@ export default function Home() {
           </div>
 
         </section>
-        <hr className="border-[#00a99d] w-[90%] border-2 mb-[50px] block mx-auto mt-[60px]" />
+        <hr className="border-[#00a99d] w-[87%] border mb-[50px] block mx-auto mt-[60px]" />
       </section>
-      <div className='h-[300px] w-100%'></div>
-      hello world
+      <div className='h-[200px] w-[100%]'></div>
+      <section className='grid place-items-center w-[100%] mt-[100px]'>
+        <h1>
+          Our Case Studies
+        </h1>
+      </section>
     </main>
   );
 }
