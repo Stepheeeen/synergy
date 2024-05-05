@@ -144,6 +144,18 @@ export default function Home() {
         <h1>
           Our Case Studies
         </h1>
+
+        <div className='flex items-center justify-center w'>
+          <div className='p-[15px] rounded-xl bg-[#a3d9d7] hover:bg-[#003634] pointer ease-in-out'>
+            <Image
+              src="https://global-uploads.webflow.com/628f3ec4a439cd94e2b14707/62e8dc318aa3c2502a9a6565_Case%20Study%2014-p-800.jpg"
+              alt="Description of the image"
+              width={485}
+              height={50}
+              className='rounded-xl'
+            />
+          </div>
+        </div>
       </section>
     </main>
   );
